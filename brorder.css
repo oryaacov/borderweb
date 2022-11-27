@@ -1,0 +1,46 @@
+body {
+    background: #fff;
+    color: #333;
+    font-family: Lato, sans-serif;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    margin-right: 0.5rem;
+}
+
+input {
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 2px;
+}
+
+button {
+    background: none;
+    border: 0px;
+    color: #888;
+    width: 3rem;
+    margin: 0.5rem 0 0;
+    cursor: pointer;
+}
+
+.container {
+    width: 25rem;
+    height: 15rem;
+    max-height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: center;
+
+}
+
+.url-container {
+    height: max-content;
+    overflow-y: auto;
+}

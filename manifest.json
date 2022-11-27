@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "brorder",
+  "description": "",
+  "version": "1.0",
+  "background": {
+    "service_worker": "background.js"  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "images/brorder16.png",
+    "48": "images/brorder48.png",
+    "128": "images/brorder128.png"
+  },
+  "content_scripts": [
+    {
+      "css": ["brorder.css"],
+      "js": [ "brorder.js"],
+      "matches": ["*://*/*"]
+    }
+  ],
+  "permissions": ["tabs", "storage", "declarativeContent", "activeTab", "scripting", "background"],
+  "host_permissions": ["<all_urls>"]
+}
