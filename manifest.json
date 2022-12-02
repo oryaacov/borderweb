@@ -20,6 +20,6 @@
       "matches": ["*://*/*"]
     }
   ],
-  "permissions": ["tabs", "storage", "declarativeContent", "activeTab", "scripting", "background"],
+  "permissions": ["tabs", "storage", "activeTab", "scripting", "background"],
   "host_permissions": ["<all_urls>"]
 }
